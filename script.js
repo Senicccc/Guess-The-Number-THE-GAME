@@ -1,4 +1,4 @@
-
+alert('This web is meant to be viewed in landscape mode or desktop mode.')
 
 var lives = 3;
 
