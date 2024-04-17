@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    background-image: url('zbg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button {
+    top: 10%;
+    transition: 0.1s;
+    position: relative;
+    padding: 5vh 15vh;
+    color: white;
+    background-color: blueviolet;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px white;
+    text-shadow: 1px 1px 8px white;
+    font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.button:hover { 
+    background-color: rgb(77, 25, 126);
+    text-shadow: 0px 0px 0px white;
+    box-shadow: 0px 0px 0px 0px white;
+
+}
+
